@@ -28,7 +28,6 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-
     }
 
 .container{
@@ -45,15 +44,15 @@ body {
 
 .container2{
     height: 410px;
-    width: 275px;
+    width: 285px;
     background-color: var(--White);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding-left: 20px;
+    padding: 20px;
 }
 
 .container2>h3{
-    margin-top: 20px;
+    margin-top: 10px;
     color: var(--Dark-grayish-blue);
     font-size: 0.8rem;
     font-weight: 100;
@@ -61,26 +60,36 @@ body {
 }
 
 .container2>h2{
-    margin-top: 20px;
-    padding: ;
+    margin: 20px 0 20px 0;
+    padding: 0 25px 3px 0px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+    line-height: 1;
 }
 
 .container2>p{
-
+    color: var(--Dark-grayish-blue);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    padding-bottom: 20px;
 }
 
 
 .btn{
-    display: inline-block;
+    display: block;
     background-color: var(--Dark-cyan);
     color: var(--White);
+    padding: 10px;   
 }
 
 
 .btn>a{
     color: var(--White);
     text-decoration: none;  
-    text-align: center;  
+    text-align: center; 
+    padding: 67px;
+    font-size: 0.9rem;
 }
 
 
