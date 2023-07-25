@@ -34,8 +34,6 @@ body {
 .container{
     max-width: 1440px;
     display: flex;
-    text-align: left; 
-    border-top-right-radius:  ;
 }
 
 .img{
