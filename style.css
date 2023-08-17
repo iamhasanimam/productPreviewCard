@@ -117,8 +117,11 @@ body {
 }
 
 @media(max-width:768px){
-    .img{
-        size: 320px;
+    .options{
+        
     }
+
+
+    
 }
 

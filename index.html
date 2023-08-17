@@ -17,7 +17,14 @@
 <div class="wrapper">
     <div class="container">
         <div class="container1">
-            <img src="./images/image-product-desktop.jpg" alt="" class="img options">
+            <picture>
+                <source
+                srcset="./images/image-product-mobile.jpg",
+                media="(-width:768px)"
+                >
+                <img src="./images/image-product-desktop.jpg" alt="" class="img">
+            </picture>
+            
         </div>
         <div class="container2">
             <h3>PERFUME</h3>
